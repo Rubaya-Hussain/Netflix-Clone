@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    height: 115vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img-folder/header-image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#nav-item{
+    padding-top: 2rem;
+}
+.logo{
+    margin-left: 4rem;
+}
+.btn1{
+    background-color: transparent;
+    color: #fff;
+    padding: .4rem;
+    border: 1px solid aliceblue;
+    border-radius: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.btn2{
+    background-color: red;
+    color: #fff;
+    padding: .4rem;
+    border: 1px solid red;
+    border-radius: .2rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+.h-1{
+    overflow: hidden;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding-top: 10rem;
+    padding-left: 9rem;
+}
+.h-2{
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 9rem;
+}
+.input-div{
+    background: linear-gradient(rgba(0, 8, 29, 1), rgba(0, 8, 29, 1)) padding-box, linear-gradient(90deg,red, blue) border-box;
+    border-width: .3rem;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.h-3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+}
+.input{
+    padding-left: 1rem;
+    background: #000;
+    color: #fff;
+    border: 1px solid aliceblue;
+    border-radius: .2rem;
+    margin-left: 1rem;
+    width: 20rem;
+    height: 3.5rem;
+}
+.get-start{
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: red;
+    border-radius: .2rem;
+    color: #fff;
+    width: 10rem;
+    height: 3.5rem;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.section{
+    background: rgb(10, 10, 52);
+    padding-bottom: 3rem;
+}
+.sh-1{
+    padding-top: 6rem;
+    padding-left: 3rem;
+}
+.m-2{
+    padding-left: 1rem;
+}
+.sh-2{
+    padding-top: 6rem;
+}
+.sh-3{
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+.sh-4{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+.f-heading{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 11rem;
+}
+.card-body{
+    background: rgb(0, 0, 65);
+    color: #fff;
+    margin-top: -.9rem;
+}
+.f-p1{
+    border: 2px solid rgb(0, 0, 65);
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 3rem;
+    background: rgb(0, 0, 65);
+    font-size: 2rem;
+}
+.f-m1{
+    float: right;
+    padding-top: .5rem;
+}
+.form-p{
+    font-size: 1.5rem;
+}
+.form-e{
+    padding-left: 1rem;
+    background: #000;
+    color: #fff;
+    border: 1px solid aliceblue;
+    border-radius: .2rem;
+    width: 20rem;
+    height: 3.5rem;
+}
+
+ul li{
+    list-style: none;
+    padding-top: 1rem;
+}
+#sing-nav{
+    width: 100%;
+    height: 140vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img-folder/header-image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.form{
+    width: 20rem;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    margin-top: 2rem;
+    background: rgba(0, 0, 0,.5);
+    border: 2px solid rgb(16, 15, 15);
+}
+.form-i{
+    height: 2.7rem;
+    padding-left: 1rem;
+    color: aliceblue;
+    border: 1px solid rgb(158, 157, 157);
+    background: rgb(165, 164, 164);
+    border-radius: 4px ;
+}
+.Sing{
+    width: 13.6rem;
+    padding: .5rem;
+    background: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: #fff;
+}
+.checkbox{
+    font-size: .8rem;
+}
+.Sing-p{
+    font-size: .6rem;
+    padding-right: 3rem;
+}
+.sing-f{
+    background: rgba(0, 0, 0,.5);
+    padding-bottom: 2rem;
+}
+.sing-q{
+    padding-top: 3rem;
+    color: #414040;
+}
+.sing-text{
+    color: #414040; 
+}
+
+@media screen and (max-width: 920px) {
+    #nav{
+        display: block;
+        margin-top: 0;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+    .btn{
+        width: 12rem;
+        margin-right: 1rem;
+    }
+    .btn1{
+        padding: .2rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .btn2{
+        padding: .2rem;
+        padding-left: .2rem;
+        padding-right: .2rem;
+    }
+    .h-1{
+        padding-left: 4rem;
+    } 
+    .h-2{
+        padding-left: 4rem;
+    } 
+    .sh-1{
+        padding-top: 2rem;
+    }
+    .sh-2{
+        padding-top: 2rem;
+    }
+    .m-3{
+        padding-top: 4rem;
+    }
+    .m-4{
+        padding-top: 6rem;
+    }
+    .f-heading{
+        font-size: 2.7rem;
+        font-weight: 400;
+        padding-left: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .nav-content{
+        display: flex;
+        align-items: center;
+    }
+    .btn1{
+        font-size: 1rem;
+    }
+    .btn2{
+        font-size: 1rem;
+    }
+    #nav-item{
+        display: inline;
+    }
+    .h-1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-left: .1rem;
+    }
+    .h-2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding-left: .1rem;
+    }
+    .input-div{
+        text-align: center;
+        border: transparent;
+        background: 0;
+        border-radius: 0;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    .h-3{
+        font-size: 1rem;
+        font-weight: 300;
+        padding-left: .1rem;
+    }
+    .input{
+        width: 10rem;
+        height: 2rem;
+    }
+    .get-start{
+        font-size: .7rem;
+        font-weight: 200;
+        width: 6rem;
+        height: 2rem;
+        margin-top: .5rem;
+        margin-left: 1rem;
+    }
+    #nav{
+        height: 105vh;
+    }
+    .sh-2{
+        padding-left: 3rem;
+    }
+    .m-3{
+        padding-top: 2rem;
+    }
+    .sh-4{
+        padding-top: 2rem;
+    }
+    .m-4{
+        padding-top: 1rem;
+    }
+    .f-heading{
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-left: 1.5rem;
+    }
+    .f-p1{
+        padding: .5rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .f-m1{
+        width: 2rem;
+        padding-top: 0rem;
+    }
+    .form-e{
+        width: 8rem;
+        height: 2rem;
+    }
+    .form{
+        width: 17rem;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        
+    }
+    #sing-nav{
+        width: 100%;
+        height: 174vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img-folder/header-image.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+}
+@media screen and (max-width: 290px) {
+    .sh-1{
+        padding-left: 0rem;
+    } 
+    .sh-2{
+        padding-left: 0rem;
+    } 
+    .sh-3{
+        padding-left: 0rem;
+    } 
+    .sh-4{
+        padding-left: 0rem;
+    } 
+    
+    .f-p1{
+        padding: .5rem;
+        padding-bottom: 1.2rem;
+        padding-left: .3rem;
+        font-weight: 400;
+        font-size: .8rem;
+    }
+    .f-m1{
+        width: 1rem;
+        padding-top: 0rem;
+    }
+    .form{
+        width: 10rem;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        background: transparent;
+        border: 2px solid rgb(16, 15, 15);
+    }
+    .form-i{
+        width: 10rem;
+        height: 2.7rem;
+        padding-left: 1rem;
+        color: aliceblue;
+        border: 1px solid rgb(158, 157, 157);
+        background: rgb(165, 164, 164);
+        border-radius: 4px ;
+    }
+    .Sing{
+        width: 10rem;
+        padding: .5rem;
+        background: red;
+        border: 2px solid red;
+        border-radius: 4px;
+        color: #fff;
+    }
+    .Sing-p{
+        font-size: .7rem;
+        padding-right: .4rem;
+    }
+    #sing-nav{
+        width: 100%;
+        height: 195vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img-folder/header-image.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+      
+}
